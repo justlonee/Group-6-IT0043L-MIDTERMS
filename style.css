@@ -1,0 +1,340 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, Arial, sans-serif;
+}
+h2, h4 {
+    z-index: 1000;
+}
+body {
+    background-color: lightgray;
+}
+
+/* NAVBAR */
+.navbar-brand img{
+    padding-right: 15px;
+    padding-left: 20px;
+}
+
+.navbar a{
+    font-size: 30px;
+    font-weight: bold;
+}
+.navbar {
+    background-color: #9a9a9a;
+    border-bottom: 3px solid dimgray;
+}
+
+.search{
+    padding-right: 40px;
+    padding-left: 55px;
+}
+
+.navbar-nav a{
+    padding-right: 35px !important;
+}
+/* END OF NAVBAR */
+
+/* HEADER */
+.header-bg {
+    background: url(./images/placeholder.png);
+/*    background-image: linear-gradient(to left, #DC52BF, white, white);*/
+    background-repeat: no-repeat;
+    height: 20rem;
+    width: 100%;
+    background-size: 100% 20rem;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3rem;
+    text-align: justify;
+    height: 100%;
+    width: 40vw;
+    overflow: hidden;
+}
+
+.header-text h2 {
+    text-align: center;
+}
+/* END OF HEADER */
+
+/* bottom bread */
+.bbread-bg {
+    background: url(./images/placeholder.png);
+    background-repeat: no-repeat;
+    background-size: 100% 20rem;
+    height: 20rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    border-bottom: 3px solid dimgray;
+}
+.bbread-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 3rem 0 3rem;
+    text-align: justify;
+    height: 100%;
+    width: 40%;
+    align-items: bottom;
+    overflow: hidden;  
+}
+.bbread-text h2 {
+    text-align: center;
+}
+/* end of bottom bread */
+
+/* CARDS */
+.prod {
+    padding-bottom: 2rem;
+}
+.section-title {
+    text-align: center;
+    width: 100%;
+    padding-top: 2rem;
+}
+
+.row {
+    max-width: 100%;
+    margin: auto;
+}
+
+.col-md {
+    padding-top: 30px;
+}
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.card img{
+    height: 200px;
+}
+
+.card-body p {
+    text-align: justify !important;
+}
+.card-title {
+    font-weight: bold;
+}
+.prod-card {
+    transition: transform 330ms ease-in-out;
+}
+.prod-card:hover {
+    transform: scale3d(1.07, 1.07, 1.07);
+}
+/* END OF CARDS */
+
+/* brand overview */
+.overview {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 4rem;
+    flex-wrap: wrap;
+}
+/* end of brand overview */
+
+/* Subscription */
+.subs{
+    display: flex;
+    justify-content: center;
+}
+
+.subs-mainDiv{
+    display: flex;
+    padding: 0 1.5rem;
+    border-radius: 3vh;
+    background-color: white;
+    box-shadow: 5px 10px 18px #888888;
+    margin-bottom: 4rem;
+}
+
+.subs-text{
+    padding-top: 11vh;
+    padding-right: 1vh;
+}
+
+.subs-text input[type="text"]{
+    padding: .5vh;
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+.subs-img img{
+    height: 20vw;
+    max-width: 100%;
+    max-height: 100%;
+    padding-right: 3vh;
+}
+
+.subs-text button{
+    height: 3.8vh;
+    width: 12vh;
+}
+/* End of Subscription */
+
+
+
+/* TRy lng */
+.container-header {
+    width: 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+.gradient-header {
+    width: 100%;
+    height: 20rem;
+    background-image: linear-gradient(to left, darkgray, transparent);
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+    z-index: 900;
+}
+.gradient-header2 {
+    width: 100%;
+    height: 20rem;
+    background-image: linear-gradient(to right, darkgray, transparent);
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+    z-index: 900;
+}
+/* TRy lng */
+
+/* @media screen and (max-width: 768px){
+    .bbread-text h2{
+        font-size: 1.5vw;
+    }
+    .bbread-text h4{
+        font-size: 1vw;
+    }
+}  */
+
+/* FOOTER */
+footer{
+    width: 100%;
+    height: auto;
+    background: #9a9a9a;
+    padding-bottom: 20px;
+    border-top: 3px solid dimgray;
+}
+
+.sq{
+    width: 100%;
+    height: auto;
+    margin-top: 48px;
+    padding: 0px !important;
+    padding-bottom: 20px;
+}
+
+.company{
+    margin-top: 20px;
+    font-size: 38px;
+    color: #973da4;
+    font-weight: bold;
+}
+
+.about{
+    width: 85%;
+    color: white;
+    margin-top: 7px;
+}
+
+.heading{
+    margin-top: 20px;
+    font-size: 38px;
+    color: #973da4;
+    font-weight: bold;
+    text-align: center;
+}
+
+.p-list{
+    padding: 0;
+}
+
+.p-list li{
+    display: block;
+    text-align: center;
+    margin: 5px 0px;
+    color: white;
+}
+
+.l-list{
+    padding: 0;
+}
+
+.l-list li{
+    display: block;
+    text-align: center;
+    margin: 5px 0px;
+    color: white;
+}
+
+.contact{
+    padding: 0;
+}
+
+.contact li{
+    display: block;
+    text-align: center;
+    margin: 5px 0px;
+    color: white;
+}
+
+.socials{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.socials li{
+    display: inline-flex;
+    color: white;
+    margin: 5px;
+    font-size: 25px;
+}
+
+.copy{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.container p, .l-list li, .p-list li, .contact li, .copy {
+    color: black !important;
+}
+/* END OF FOOTER */
+
+
+
+
+@media screen and (min-width: 920px) {
+    .bbread-text h2, .header-text h2 {
+        font-size: 36px;
+    }
+    .bbread-text h4, .header-text h4 {
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 919px) {
+    .bbread-text h2, .header-text h2 {
+        font-size: 24px;
+    }
+    .bbread-text h4, .header-text h4 {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 415px) {
+    .bbread-text h2, .header-text h2 {
+        font-size: 20px;
+    }
+    .bbread-text h4, .header-text h4 {
+        font-size: 12px;
+    }
+}
